@@ -8,6 +8,7 @@ name_hash.each do |name, value|
   if lowest_number = nil 
     lowest_number = value 
     answer = name 
+    lowest_number = value 
   end 
   if lowest_number > value 
     lowest_number = value 
