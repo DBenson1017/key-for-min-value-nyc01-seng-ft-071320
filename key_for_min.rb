@@ -6,10 +6,13 @@ def key_for_min_value(name_hash)
 
 name_hash.each do |name, value|
   if lowest_number = nil 
-    return 
-    min_value = value 
-    #{name} = answer 
+    lowest_number = value 
+    answer = name 
+  end 
+  if lowest_number > value 
+    lowest_number = value 
+    answer = name 
+  end 
+anser 
   end
-end 
-answer 
 end 
