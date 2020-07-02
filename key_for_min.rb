@@ -14,5 +14,5 @@ name_hash.each do |name,value|
     answer = name 
   end
 end 
-answer 
+return answer
 end
