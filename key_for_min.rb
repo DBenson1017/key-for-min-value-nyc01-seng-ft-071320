@@ -3,18 +3,14 @@
 
 def key_for_min_value(name_hash)
   lowest_value = 0 
-  lowest_value = nil 
+  lowest_key = nil 
   
 
 name_hash.each do |name,value|
   if lowest_value == 0 || value < lowest_value
-    lowest_number = value 
-    answer = name 
+    lowest_value = value
+    lowest_key = name 
   end 
-  if lowest_number > value 
-    lowest_number = value 
-    answer = name 
   end
-end 
-return answer
+  lowest_key
 end
