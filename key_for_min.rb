@@ -13,7 +13,6 @@ name_hash.each do |name, value|
   if lowest_number > value 
     lowest_number = value 
     answer = name 
-  end 
-answer 
   end
 end 
+answer 
