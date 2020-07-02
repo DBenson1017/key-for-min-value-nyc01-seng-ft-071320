@@ -14,6 +14,6 @@ name_hash.each do |name, value|
     lowest_number = value 
     answer = name 
   end 
-anser 
+answer 
   end
 end 
